@@ -1,4 +1,11 @@
-.hello {
+
+ @font-face {
+   font-family: 'Bangers';
+   src:  url('./Bangers-Regular.ttf') format('ttf');
+   font-style: normal;
+}
+
+ .hello {
     color: red;
-    background: url('./icon.png');
+    font-family: 'Bangers';
  }
