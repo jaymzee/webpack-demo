@@ -7,6 +7,7 @@ module.exports = {
   entry: {
     app: './src/index.js',
     print: './src/print.js',
+    another: './src/another-module.js',
   },
   devtool: 'inline-source-map',
   devServer: {
